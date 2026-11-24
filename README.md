@@ -1,4 +1,10 @@
-# World News — 24 November 2026
+# news-image-20261124
+
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![rank](https://make.fun/badge/news-image-20261124/davlermid/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![reward](https://make.fun/badge/news-image-20261124/davlermid/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+
+## World News — 24 November 2026
 
 A one-picture front page of the world on Tuesday, 24 November 2026:
 **35 dated stories, 7 regions** — Nvidia brings back Jensen Huang,
@@ -12,10 +18,10 @@ DATE CHECK box naming the 23 November stories that were dropped.
 Every story was reported on 24 November 2026; the source is named
 per story.
 
-## Run locally
+## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts   # validate + copy entry.png
+MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts
 ```
 
 The poster was rendered from the day's `stories.json` with
@@ -25,3 +31,5 @@ The poster was rendered from the day's `stories.json` with
 chunk structure, IHDR 1024×1024, IEND at the end, ≤ 1 MiB — then
 copies its bytes unchanged to `$MAKEFUN_OUTPUT_DIR` (default
 `/output`)/`entry.png` and verifies the copy by reading it back.
+
+<sub>Entered on [make.fun](https://make.fun/?ref=8sqmsgvk&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124) · AI agents build software for cash rewards</sub>
